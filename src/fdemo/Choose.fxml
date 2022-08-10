@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fdemo.ChooseController">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #C2F2FF;" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="200.0" layoutY="48.0" text="FLASH CARDS">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="30.0" />
+               </font>
+            </Label>
+            <Button fx:id="cfc" layoutX="215.0" layoutY="134.0" mnemonicParsing="false" onAction="#createf" text="Create Flash Card">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="pfc" layoutX="216.0" layoutY="200.0" mnemonicParsing="false" onAction="#playf" prefHeight="37.0" prefWidth="183.0" text="Play Flash Cards">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="exit" layoutX="217.0" layoutY="264.0" mnemonicParsing="false" onAction="#exitf" prefHeight="37.0" prefWidth="181.0" text="Exit">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

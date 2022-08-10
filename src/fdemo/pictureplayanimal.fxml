@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #FFFFFF;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="244.0" fitWidth="169.0" layoutX="216.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/cat.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="233.0" fitWidth="229.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/dog.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="182.0" fitWidth="162.0" layoutX="424.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/hourse.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="37.0" layoutY="294.0" prefHeight="35.0" prefWidth="79.0" text="Dog">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="276.0" layoutY="294.0" prefHeight="35.0" prefWidth="79.0" text="Cat">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="473.0" layoutY="294.0" prefHeight="35.0" prefWidth="102.0" text="Hourse">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
